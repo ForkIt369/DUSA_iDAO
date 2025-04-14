@@ -31,7 +31,9 @@ DUSA_iDAO/
 │   │   │   └── server-registry.ts # MCP Server Registry API
 │   │   └── contracts/             # Smart contracts
 │   │       └── MCPServerRegistry.sol # MCP Server Registry contract
-│   └── [future implementation directories]
+│   ├── web-interfaces/            # Web interfaces and frontends
+│   │   └── dusa-live/             # DUSA.Live website (Git submodule)
+│   └── [future-categories]/       # For future implementation categories
 └── LICENSE                        # MIT License
 ```
 
@@ -93,6 +95,17 @@ A gamified speculative rewards mechanism that aligns early-stage contributions w
 
 [Learn more about iSpins](docs/initiatives/ispins.md)
 
+### 🌐 DUSA.Live Website
+
+A futuristic one-page website for showcasing the DUSA vision, architecture, roadmap, and features:
+
+- **Interactive Visualizations**: Knowledge flow and architecture visualizations
+- **Token-Gated Experience**: Showcase of community engagement features
+- **Roadmap & Use Cases**: Implementation timeline and practical applications
+- **Modern Tech Stack**: Next.js, TypeScript, TailwindCSS, Framer Motion
+
+[Visit DUSA.Live Repository](implementation/web-interfaces/dusa-live)
+
 ### 📊 Robit Agent
 
 Analysis, visualization, on-chain insights, reporting, and support agent:
@@ -134,6 +147,38 @@ Review these documents and code for technical implementation details:
 2. [MCP Server Registry API](implementation/mcp-platform/api/server-registry.ts) - API implementation
 3. [MCP Server Registry Contract](implementation/mcp-platform/contracts/MCPServerRegistry.sol) - Smart contract
 4. [Docker Configuration](implementation/mcp-platform/docker-compose.yml) - Docker setup
+5. [DUSA.Live Website](implementation/web-interfaces/dusa-live) - Frontend implementation
+
+## Integration Framework
+
+This repository is designed to accommodate multiple integrated repositories through Git submodules. This approach allows for:
+
+1. **Independent Development**: Each integrated repository maintains its own version control history
+2. **Unified View**: All components are accessible within a single repository structure
+3. **Consistent Organization**: Clear categorization of different implementation types
+
+### Current Integrations
+
+| Category | Repository | Description |
+|----------|------------|-------------|
+| Web Interfaces | [DUSA-Live](https://github.com/ForkIt369/DUSA-Live) | Frontend website for DUSA vision and features |
+
+### Adding New Integrations
+
+To add a new repository as an integration:
+
+```bash
+# For a new web interface
+git submodule add https://github.com/ForkIt369/your-repo.git implementation/web-interfaces/your-repo
+
+# For a new agent implementation
+git submodule add https://github.com/ForkIt369/your-agent.git implementation/agents/your-agent
+
+# For a new blockchain integration
+git submodule add https://github.com/ForkIt369/your-chain.git implementation/blockchain/your-chain
+```
+
+After adding a new integration, update the README.md to include information about the new component.
 
 ## Development Roadmap
 
