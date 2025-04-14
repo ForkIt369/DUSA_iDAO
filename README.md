@@ -2,9 +2,38 @@
 
 **Orchestrating Intelligence and Value Creation**
 
-## Vision
+## Overview
 
 DUSA is a meta-iDAO designed to orchestrate a vibrant ecosystem of human creativity, decentralized governance, and AI innovation. By incubating and coordinating multiple iDAOs, AI agents, and value creation mechanisms, DUSA creates a regenerative economy that continuously amplifies and rewards human ingenuity while leveraging AI capabilities.
+
+## Repository Structure
+
+This repository is organized into the following structure:
+
+```
+DUSA_iDAO/
+├── docs/                          # Documentation
+│   ├── architecture/              # Architectural design documents
+│   │   ├── overview.md            # High-level overview of DUSA Meta-iDAO
+│   │   ├── project-plan.md        # Detailed architecture and development sequence
+│   │   ├── visual-models.md       # Visualizations of the architecture
+│   │   └── asset-structure.md     # iDAO asset hierarchy and contribution framework
+│   ├── initiatives/               # Specific initiatives documentation
+│   │   ├── dusa-connect.md        # DUSAConnect initiative specification
+│   │   └── ispins.md              # iSpins (formerly $REGRET Roulette) specification
+│   └── images/                    # Diagrams and visual assets
+├── implementation/                # Implementation code and configuration
+│   ├── mcp-platform/              # MCP Platform implementation
+│   │   ├── roadmap.md             # Development roadmap
+│   │   ├── roadmap-visual.md      # Visual representation of the roadmap
+│   │   ├── docker-compose.yml     # Docker configuration
+│   │   ├── api/                   # API implementations
+│   │   │   └── server-registry.ts # MCP Server Registry API
+│   │   └── contracts/             # Smart contracts
+│   │       └── MCPServerRegistry.sol # MCP Server Registry contract
+│   └── [future implementation directories]
+└── LICENSE                        # MIT License
+```
 
 ## Concentric Ring Architecture
 
@@ -40,41 +69,6 @@ DUSA operates through a concentric ring architecture with three layers:
 - **Verification Quadrant**: Ensures integrity and trustworthiness across the ecosystem
 - **Key Innovation**: Transparent infrastructure that scales value creation with trust
 
-## iDAO Asset Hierarchy
-
-DUSA implements a comprehensive asset hierarchy for its incubated iDAOs:
-
-### 🌱 Level 1: Core Foundation (Meta-iDAO – DUSA)
-- Identity & Reputation Records
-- Economic & Governance Protocols
-- Cross-iDAO Collaboration Frameworks
-
-### 🌿 Level 2: iDAO Incubation Layer (Child iDAOs)
-- Specialized iDAOs for different domains
-- Each with their own governance and tokenomics
-- Interoperable through DUSA's coordination
-
-### 🍃 Level 3: AI Agent Assets
-- Specialized AI agents for specific functions
-- Tokenized with clear governance and rewards
-- Interoperable through standardized protocols
-
-### 🍂 Level 4: Supporting Asset Libraries
-- Data Sets
-- AI Models
-- APIs & Integrations
-- Visualization & UX Tools
-- Governance Protocols
-- NFT & Cultural Assets
-
-## Continuous Regenerative Loop
-
-DUSA creates a self-reinforcing cycle where:
-1. **Contributors** provide creativity, ideas, data, and insights
-2. **DaVinci Recognition** unlocks, refines, and activates these contributions
-3. **iDAOs** manage, govern, and tokenize them into transparent DATs
-4. **LazAI** secures, verifies, and distributes value back to contributors
-
 ## Key DUSA-Incubated Initiatives
 
 ### 🌐 DUSAConnect
@@ -86,7 +80,9 @@ The definitive decentralized hub for creating, discovering, and incentivizing MC
 - **Incentive Mechanisms**: BITS, iSpins, and DAT rewards for contributors
 - **Community Platform**: Cultural engagement and collaboration
 
-### 🎡 $REGRET Roulette
+[Learn more about DUSAConnect](docs/initiatives/dusa-connect.md)
+
+### 🎡 $REGRET Roulette (iSpins)
 
 A gamified speculative rewards mechanism that aligns early-stage contributions with long-term value creation:
 
@@ -94,6 +90,8 @@ A gamified speculative rewards mechanism that aligns early-stage contributions w
 - **Layered Rewards**: BITS → iSpins → Roulette rewards → DATs
 - **Customizable Experiences**: Sub-iDAO specific themes and rewards
 - **Community Building**: Enhanced engagement and cultural identity
+
+[Learn more about iSpins](docs/initiatives/ispins.md)
 
 ### 📊 Robit Agent
 
@@ -113,6 +111,30 @@ Human verification, social recognition, karma/reputation management, and social 
 - **Community Analytics**: Social network analysis and engagement metrics
 - **Recognition Tools**: Reputation visualization and social proof
 
+## Documentation Guide
+
+### For Conceptual Understanding
+Start with these documents to understand the DUSA Meta-iDAO concept:
+
+1. [DUSA Overview](docs/architecture/overview.md) - High-level structure of the DUSA Meta-iDAO
+2. [Visual Models](docs/architecture/visual-models.md) - Visual representations of the architecture
+3. [Asset Structure](docs/architecture/asset-structure.md) - iDAO asset hierarchy and contribution framework
+4. [Project Plan](docs/architecture/project-plan.md) - Detailed architecture and development sequence
+
+### For Specific Initiatives
+Explore these documents to understand specific DUSA initiatives:
+
+1. [DUSAConnect](docs/initiatives/dusa-connect.md) - The decentralized hub for MCP servers
+2. [iSpins](docs/initiatives/ispins.md) - Gamified speculative rewards mechanism
+
+### For Technical Implementation
+Review these documents and code for technical implementation details:
+
+1. [MCP Platform Roadmap](implementation/mcp-platform/roadmap.md) - Development roadmap
+2. [MCP Server Registry API](implementation/mcp-platform/api/server-registry.ts) - API implementation
+3. [MCP Server Registry Contract](implementation/mcp-platform/contracts/MCPServerRegistry.sol) - Smart contract
+4. [Docker Configuration](implementation/mcp-platform/docker-compose.yml) - Docker setup
+
 ## Development Roadmap
 
 1. **Foundation Layer**: Core infrastructure, protocol implementations, basic agent capabilities
@@ -125,23 +147,10 @@ Human verification, social recognition, karma/reputation management, and social 
 - **Alith**: Leverages Alith's native MCP protocol support for seamless agent integration
 - **LazAI**: Complements LazAI's DAT system with contributor recognition and portable reputation
 
-## Documentation
-
-- [Project Plan](DUSA_iDAO_Project_Plan.md): Detailed architecture and development sequence
-- [Visual Models](visual_models.md): Visualizations of the architecture and value flows
-- [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
-- [$REGRET Roulette](regret_roulette.md): Detailed specification of the gamified rewards mechanism
-- [DUSA Structure](dusa_structure.md): High-level overview of the DUSA Meta-iDAO structure
-- [DUSAConnect](dusa_connect.md): Comprehensive specification of the DUSAConnect initiative
-
-## Getting Started
-
-Coming soon!
-
 ## Contributing
 
 We welcome contributions to the DUSA ecosystem. Please stay tuned for contribution guidelines.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
