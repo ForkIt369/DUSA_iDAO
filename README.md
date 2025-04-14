@@ -77,16 +77,16 @@ DUSA creates a self-reinforcing cycle where:
 
 ## Key DUSA-Incubated Initiatives
 
-### 🤖 MCP Initiative
+### 🌐 DUSAConnect
 
-The Model Context Protocol (MCP) initiative enhances the MCP ecosystem with Web3 capabilities:
+The definitive decentralized hub for creating, discovering, and incentivizing MCP servers:
 
-- **DaVinci Recognition Implementation**: Bit Recognition Protocol for MCP server contributions
-- **iDAO Framework**: Templates and governance for MCP server collectives
-- **DAT System**: Tokenization of MCP servers with automated royalty distribution
-- **LazAI Integration**: Secure infrastructure and verification for MCP ecosystem
+- **MCP Server Registry**: Centralized discovery with decentralized governance
+- **Verification Framework**: Quality assurance and security standards
+- **Incentive Mechanisms**: BITS, iSpins, and DAT rewards for contributors
+- **Community Platform**: Cultural engagement and collaboration
 
-### 🎡 $REGRET Roulette
+### 🎡 iSpins (formerly $REGRET Roulette)
 
 A gamified speculative rewards mechanism that aligns early-stage contributions with long-term value creation:
 
@@ -130,8 +130,9 @@ Human verification, social recognition, karma/reputation management, and social 
 - [Project Plan](DUSA_MCP_Project_Plan.md): Detailed architecture and development sequence
 - [Visual Models](visual_models.md): Visualizations of the architecture and value flows
 - [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
-- [$REGRET Roulette](regret_roulette.md): Detailed specification of the gamified rewards mechanism
+- [iSpins](regret_roulette.md): Detailed specification of the gamified rewards mechanism
 - [DUSA Structure](dusa_structure.md): High-level overview of the DUSA Meta-iDAO structure
+- [DUSAConnect](dusa_connect.md): Comprehensive specification of the DUSAConnect initiative
 
 ## Getting Started
 
