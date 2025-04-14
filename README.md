@@ -42,6 +42,32 @@ DUSA operates through a concentric ring architecture with three layers:
 - **Verification Quadrant**: Ensures integrity and trustworthiness across the ecosystem
 - **Key Innovation**: Transparent infrastructure that scales value creation with trust
 
+## iDAO Asset Hierarchy
+
+DUSA implements a comprehensive asset hierarchy for its incubated iDAOs:
+
+### 🌱 Level 1: Core Foundation (Meta-iDAO – DUSA)
+- Identity & Reputation Records
+- Economic & Governance Protocols
+- Cross-iDAO Collaboration Frameworks
+
+### 🌿 Level 2: iDAO Incubation Layer (Child iDAOs)
+- Specialized iDAOs for different domains
+- Each with their own governance and tokenomics
+- Interoperable through DUSA's coordination
+
+### 🍃 Level 3: AI Agent Assets
+- Specialized AI agents for specific functions
+- Tokenized with clear governance and rewards
+- Interoperable through standardized protocols
+
+### 🍂 Level 4: Supporting Asset Libraries
+- Data Sets
+- AI Models
+- APIs & Integrations
+- Visualization & UX Tools
+- Governance Protocols
+
 ## Continuous Regenerative Loop
 
 DUSA creates a self-reinforcing cycle where:
@@ -86,6 +112,7 @@ The MCP initiative is just one example of what DUSA can incubate. Future initiat
 
 - [Project Plan](DUSA_MCP_Project_Plan.md): Detailed architecture and development sequence
 - [Visual Models](visual_models.md): Visualizations of the architecture and value flows
+- [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
 
 ## Getting Started
 
