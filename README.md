@@ -6,8 +6,6 @@
 
 DUSA is a meta-iDAO designed to orchestrate a vibrant ecosystem of human creativity, decentralized governance, and AI innovation. By incubating and coordinating multiple iDAOs, AI agents, and value creation mechanisms, DUSA creates a regenerative economy that continuously amplifies and rewards human ingenuity while leveraging AI capabilities.
 
-The Model Context Protocol (MCP) initiative represents one of DUSA's first incubated projects, demonstrating how the meta-iDAO can facilitate powerful synergies between human contributors and AI assets.
-
 ## Concentric Ring Architecture
 
 ```
@@ -67,6 +65,7 @@ DUSA implements a comprehensive asset hierarchy for its incubated iDAOs:
 - APIs & Integrations
 - Visualization & UX Tools
 - Governance Protocols
+- NFT & Cultural Assets
 
 ## Continuous Regenerative Loop
 
@@ -76,32 +75,50 @@ DUSA creates a self-reinforcing cycle where:
 3. **iDAOs** manage, govern, and tokenize them into transparent DATs
 4. **LazAI** secures, verifies, and distributes value back to contributors
 
-## The MCP Initiative
+## Key DUSA-Incubated Initiatives
 
-The Model Context Protocol (MCP) initiative is one of DUSA's first incubated projects, enhancing the MCP ecosystem with Web3 capabilities:
+### 🤖 MCP Initiative
 
-### Key Components
+The Model Context Protocol (MCP) initiative enhances the MCP ecosystem with Web3 capabilities:
 
 - **DaVinci Recognition Implementation**: Bit Recognition Protocol for MCP server contributions
 - **iDAO Framework**: Templates and governance for MCP server collectives
 - **DAT System**: Tokenization of MCP servers with automated royalty distribution
 - **LazAI Integration**: Secure infrastructure and verification for MCP ecosystem
 
-### Development Roadmap
+### 🎡 $REGRET Roulette
 
-1. **Foundation Layer**: Core infrastructure, MCP protocol implementation, Web3 integration
-2. **Tokenization & Ownership Layer**: MCP server tokenization, bit recognition system, verification framework
-3. **Governance & Community Layer**: Decentralized governance, iDAO framework, community building tools
-4. **Application & Integration Layer**: MCP server marketplace, agent framework integration, cross-ecosystem bridges
+A gamified speculative rewards mechanism that aligns early-stage contributions with long-term value creation:
 
-## Future DUSA-Incubated Initiatives
+- **Roulette Mechanics**: Smart contracts for randomized, verifiable rewards
+- **NFT & Cultural Assets**: Digital collectibles and cultural recognition
+- **Customizable Experiences**: Sub-iDAO specific themes and rewards
+- **Community Building**: Enhanced engagement and cultural identity
 
-The MCP initiative is just one example of what DUSA can incubate. Future initiatives may include:
+### 📊 Robit Agent
 
-- **AI Agent Collective**: Specialized AI agents collaborating to solve complex problems
-- **Data Commons iDAO**: High-quality datasets for AI training with fair compensation
-- **Verification Network**: Decentralized verification of AI outputs and human contributions
-- **Knowledge Graph Collective**: Community-maintained knowledge graphs for AI systems
+Analysis, visualization, on-chain insights, reporting, and support agent:
+
+- **Data Analytics**: On-chain data processing and insight generation
+- **Visualization Tools**: Interactive dashboards and reporting interfaces
+- **Predictive Models**: Trend analysis and pattern recognition
+- **Integration Framework**: Connections to blockchain data sources
+
+### 🚀 AlphaBro Agent
+
+Human verification, social recognition, karma/reputation management, and social analytics:
+
+- **Identity Verification**: DID integration and human verification
+- **Reputation Systems**: Social standing and contribution tracking
+- **Community Analytics**: Social network analysis and engagement metrics
+- **Recognition Tools**: Reputation visualization and social proof
+
+## Development Roadmap
+
+1. **Foundation Layer**: Core infrastructure, protocol implementations, basic agent capabilities
+2. **Capability Layer**: Specialized functionalities, advanced agent features, integration frameworks
+3. **Ecosystem Layer**: Cross-iDAO tools, ecosystem-wide events, portable reputation systems
+4. **Application Layer**: Domain-specific solutions, industry implementations, specialized compositions
 
 ## Integration with Existing Ecosystems
 
@@ -113,6 +130,7 @@ The MCP initiative is just one example of what DUSA can incubate. Future initiat
 - [Project Plan](DUSA_MCP_Project_Plan.md): Detailed architecture and development sequence
 - [Visual Models](visual_models.md): Visualizations of the architecture and value flows
 - [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
+- [$REGRET Roulette](regret_roulette.md): Detailed specification of the gamified rewards mechanism
 
 ## Getting Started
 
