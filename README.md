@@ -127,7 +127,7 @@ Human verification, social recognition, karma/reputation management, and social 
 
 ## Documentation
 
-- [Project Plan](DUSA_MCP_Project_Plan.md): Detailed architecture and development sequence
+- [Project Plan](DUSA_iDAO_Project_Plan.md): Detailed architecture and development sequence
 - [Visual Models](visual_models.md): Visualizations of the architecture and value flows
 - [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
 - [$REGRET Roulette](regret_roulette.md): Detailed specification of the gamified rewards mechanism
