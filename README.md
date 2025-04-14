@@ -86,12 +86,12 @@ The definitive decentralized hub for creating, discovering, and incentivizing MC
 - **Incentive Mechanisms**: BITS, iSpins, and DAT rewards for contributors
 - **Community Platform**: Cultural engagement and collaboration
 
-### 🎡 iSpins (formerly $REGRET Roulette)
+### 🎡 $REGRET Roulette
 
 A gamified speculative rewards mechanism that aligns early-stage contributions with long-term value creation:
 
-- **Roulette Mechanics**: Smart contracts for randomized, verifiable rewards
-- **NFT & Cultural Assets**: Digital collectibles and cultural recognition
+- **iSpins Currency**: Earned through BITS recognition, used to play the Roulette
+- **Layered Rewards**: BITS → iSpins → Roulette rewards → DATs
 - **Customizable Experiences**: Sub-iDAO specific themes and rewards
 - **Community Building**: Enhanced engagement and cultural identity
 
@@ -130,7 +130,7 @@ Human verification, social recognition, karma/reputation management, and social 
 - [Project Plan](DUSA_MCP_Project_Plan.md): Detailed architecture and development sequence
 - [Visual Models](visual_models.md): Visualizations of the architecture and value flows
 - [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
-- [iSpins](regret_roulette.md): Detailed specification of the gamified rewards mechanism
+- [$REGRET Roulette](regret_roulette.md): Detailed specification of the gamified rewards mechanism
 - [DUSA Structure](dusa_structure.md): High-level overview of the DUSA Meta-iDAO structure
 - [DUSAConnect](dusa_connect.md): Comprehensive specification of the DUSAConnect initiative
 
