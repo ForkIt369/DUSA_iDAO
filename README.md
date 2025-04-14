@@ -131,6 +131,7 @@ Human verification, social recognition, karma/reputation management, and social 
 - [Visual Models](visual_models.md): Visualizations of the architecture and value flows
 - [Asset Structure](asset_structure.md): Comprehensive iDAO asset hierarchy and contribution framework
 - [$REGRET Roulette](regret_roulette.md): Detailed specification of the gamified rewards mechanism
+- [DUSA Structure](dusa_structure.md): High-level overview of the DUSA Meta-iDAO structure
 
 ## Getting Started
 
