@@ -12,29 +12,39 @@ This repository is organized into the following structure:
 
 ```
 DUSA_iDAO/
-├── docs/                          # Documentation
-│   ├── architecture/              # Architectural design documents
-│   │   ├── overview.md            # High-level overview of DUSA Meta-iDAO
-│   │   ├── project-plan.md        # Detailed architecture and development sequence
-│   │   ├── visual-models.md       # Visualizations of the architecture
-│   │   └── asset-structure.md     # iDAO asset hierarchy and contribution framework
-│   ├── initiatives/               # Specific initiatives documentation
-│   │   ├── dusa-connect.md        # DUSAConnect initiative specification
-│   │   └── ispins.md              # iSpins (formerly $REGRET Roulette) specification
-│   └── images/                    # Diagrams and visual assets
-├── implementation/                # Implementation code and configuration
-│   ├── mcp-platform/              # MCP Platform implementation
-│   │   ├── roadmap.md             # Development roadmap
-│   │   ├── roadmap-visual.md      # Visual representation of the roadmap
-│   │   ├── docker-compose.yml     # Docker configuration
-│   │   ├── api/                   # API implementations
-│   │   │   └── server-registry.ts # MCP Server Registry API
-│   │   └── contracts/             # Smart contracts
+├── MemoryBank/                     # Primary, up-to-date strategic assets
+│   ├── projectbrief.md             # Project goals, scope, deliverables
+│   ├── productContext.md           # Justification, problems, user goals
+│   ├── systemPatterns.md           # Architecture, patterns, design rationale
+│   ├── techContext.md              # Technology stack, environment, dependencies
+│   ├── activeContext.md            # Current tasks, decisions, next steps
+│   ├── progress.md                 # Completed/pending tasks, status, issues
+│   ├── BX-BuilderExperienceStrategy.md # BX, AX, W3DV Blue frameworks
+│   └── HolisticLayeredAIEcosystemModel.md # Layered architecture model
+├── docs/                           # Documentation
+│   ├── visuals/                    # Diagrams and visual models
+│   │   └── visual-models.md        # Visualizations of the architecture
+│   ├── initiatives/                # Specific initiatives documentation
+│   │   ├── dusa-connect.md         # DUSAConnect initiative specification
+│   │   └── ispins.md               # iSpins (formerly $REGRET Roulette) specification
+│   ├── legacy/                     # Legacy documentation (for reference)
+│   │   ├── overview.md             # High-level overview of DUSA Meta-iDAO
+│   │   ├── project-plan.md         # Detailed architecture and development sequence
+│   │   └── asset-structure.md      # iDAO asset hierarchy and contribution framework
+│   └── architecture/               # Original architectural design documents
+├── implementation/                 # Implementation code and configuration
+│   ├── mcp-platform/               # MCP Platform implementation
+│   │   ├── roadmap.md              # Development roadmap
+│   │   ├── roadmap-visual.md       # Visual representation of the roadmap
+│   │   ├── docker-compose.yml      # Docker configuration
+│   │   ├── api/                    # API implementations
+│   │   │   └── server-registry.ts  # MCP Server Registry API
+│   │   └── contracts/              # Smart contracts
 │   │       └── MCPServerRegistry.sol # MCP Server Registry contract
-│   ├── web-interfaces/            # Web interfaces and frontends
-│   │   └── dusa-live/             # DUSA.Live website (Git submodule)
-│   └── [future-categories]/       # For future implementation categories
-└── LICENSE                        # MIT License
+│   ├── web-interfaces/             # Web interfaces and frontends
+│   │   └── dusa-live/              # DUSA.Live website (Git submodule)
+│   └── [future-categories]/        # For future implementation categories
+└── LICENSE                         # MIT License
 ```
 
 ## Concentric Ring Architecture
@@ -126,13 +136,16 @@ Human verification, social recognition, karma/reputation management, and social 
 
 ## Documentation Guide
 
-### For Conceptual Understanding
-Start with these documents to understand the DUSA Meta-iDAO concept:
+> **Note**: The MemoryBank directory contains the most up-to-date, canonical documentation for the DUSA Meta-iDAO. All other documentation should be considered supplementary or legacy.
 
-1. [DUSA Overview](docs/architecture/overview.md) - High-level structure of the DUSA Meta-iDAO
-2. [Visual Models](docs/architecture/visual-models.md) - Visual representations of the architecture
-3. [Asset Structure](docs/architecture/asset-structure.md) - iDAO asset hierarchy and contribution framework
-4. [Project Plan](docs/architecture/project-plan.md) - Detailed architecture and development sequence
+### Primary Strategic Documentation (MemoryBank)
+Start with these documents to understand the DUSA Meta-iDAO concept and architecture:
+
+1. [Project Brief](MemoryBank/projectbrief.md) - Core goals, scope, and deliverables
+2. [Product Context](MemoryBank/productContext.md) - Project justification, problems addressed, user goals
+3. [System Patterns](MemoryBank/systemPatterns.md) - Architecture, asset hierarchy, system patterns
+4. [Holistic Layered AI Ecosystem Model](MemoryBank/HolisticLayeredAIEcosystemModel.md) - Comprehensive architectural model
+5. [BX-AX-Blue Frameworks](MemoryBank/BX-BuilderExperienceStrategy.md) - Builder, Agent, and Human Experience frameworks
 
 ### For Specific Initiatives
 Explore these documents to understand specific DUSA initiatives:
@@ -148,6 +161,13 @@ Review these documents and code for technical implementation details:
 3. [MCP Server Registry Contract](implementation/mcp-platform/contracts/MCPServerRegistry.sol) - Smart contract
 4. [Docker Configuration](implementation/mcp-platform/docker-compose.yml) - Docker setup
 5. [DUSA.Live Website](implementation/web-interfaces/dusa-live) - Frontend implementation
+
+### Legacy Documentation (For Reference)
+These documents are maintained for historical reference:
+
+1. [DUSA Overview](docs/legacy/overview.md) - Original high-level structure
+2. [Asset Structure](docs/legacy/asset-structure.md) - Original asset hierarchy and contribution framework
+3. [Project Plan](docs/legacy/project-plan.md) - Original architecture and development sequence
 
 ## Integration Framework
 
